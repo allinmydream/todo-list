@@ -5,7 +5,7 @@ import TodoList from './TodoList';
 
 class App extends Component {
     state = {
-        inpute: '',
+        input: '',
         todos: [
             {id:0, text:'첫번째 일정', done:true},
             {id:1, text:'두번째 일정', done:false}
